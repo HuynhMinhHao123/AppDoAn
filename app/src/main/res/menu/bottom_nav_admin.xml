@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_admin"
+        android:title="Trang Chủ" />
+
+    <item
+        android:id="@+id/nav_food"
+        android:title="Quản lý Món Ăn " />
+
+    <item
+        android:id="@+id/menu_booking"
+        android:title="Quản Lý Đặt Món" />
+    <item
+        android:id="@+id/nav_muser"
+        android:title="Quản Lý Người Dùng" />
+    <item
+        android:id="@+id/nav_account1"
+        android:title="Tài khoản" />
+</menu>

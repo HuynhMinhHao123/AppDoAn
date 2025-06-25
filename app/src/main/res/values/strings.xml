@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Amazon</string>
+    <string name="default_web_client_id">25620477448-qjc60uoutr67km8rf0995pt6prle7ke8.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_title" translatable="false">Đăng ký tài khoản</string>
+    <string name="hint_full_name" translatable="false">Họ và Tên</string>
+    <string name="hint_phone" translatable="false">Số điện thoại</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_birth_date" translatable="false">Ngày sinh (dd/MM/yyyy)</string>
+    <string name="hint_password" translatable="false">Mật khẩu</string>
+    <string name="hint_confirm_password" translatable="false">Nhập lại mật khẩu</string>
+    <string name="show_password" translatable="false">Hiển thị mật khẩu</string>
+    <string name="gender" translatable="false">Giới tính</string>
+    <string name="gender_male" translatable="false">Nam</string>
+    <string name="gender_female" translatable="false">Nữ</string>
+    <string name="register" translatable="false">Đăng ký</string>
+</resources>

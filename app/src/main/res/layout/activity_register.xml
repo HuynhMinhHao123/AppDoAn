@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="#000" />
+
+        <!-- Họ và tên -->
+        <EditText
+            android:id="@+id/nameEditText"
+            android:hint="@string/hint_full_name"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Số điện thoại -->
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:hint="@string/hint_phone"
+            android:autofillHints="phone"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:hint="@string/hint_email"
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Giới tính -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textStyle="italic"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <RadioButton
+                android:id="@+id/maleRadioButton"
+                android:text="@string/gender_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/femaleRadioButton"
+                android:text="@string/gender_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp" />
+        </RadioGroup>
+
+        <!-- Ngày sinh -->
+        <EditText
+            android:id="@+id/birthdayEditText"
+            android:hint="@string/hint_birth_date"
+            android:autofillHints="birthday"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Mật khẩu -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:hint="@string/hint_password"
+            android:autofillHints="password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Nhập lại mật khẩu -->
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:hint="@string/hint_confirm_password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Checkbox hiển thị mật khẩu -->
+        <CheckBox
+            android:id="@+id/showPasswordCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/show_password"
+            android:textSize="14sp" />
+
+        <!-- Nút đăng ký -->
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:text="@string/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
